@@ -44,6 +44,9 @@ public class Mframe extends JFrame {
 		
 		JToolBar toolBar = new JToolBar();
 		contentPane.add(toolBar, BorderLayout.SOUTH);
+		
+		JPanel panel = new JPanel();
+		contentPane.add(panel, BorderLayout.CENTER);
 	}
 
 }
