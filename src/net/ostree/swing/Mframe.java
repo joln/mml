@@ -6,6 +6,9 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.JTextField;
+import javax.swing.JLabel;
+import javax.swing.JToolBar;
 
 public class Mframe extends JFrame {
 
@@ -38,6 +41,9 @@ public class Mframe extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
+		
+		JToolBar toolBar = new JToolBar();
+		contentPane.add(toolBar, BorderLayout.SOUTH);
 	}
 
 }
