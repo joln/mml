@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Arrow" id="5" x="256" y="184" width="176" height="21" measuredWidth="176" measuredHeight="21" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="6" x="391" y="137" width="194" height="16" measuredWidth="194" measuredHeight="16" annotation="true"/>
+  <widgets xsi:type="model:Group" id="8" x="144" y="137" text="数据库" measuredWidth="100" measuredHeight="100">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="9" x="144" y="280" text="FTP文件" measuredWidth="100" measuredHeight="100">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="10" x="352" y="287" text="BSC" measuredWidth="100" measuredHeight="100">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="11" x="536" y="336" width="249" height="127" measuredWidth="249" measuredHeight="127" annotation="true"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
