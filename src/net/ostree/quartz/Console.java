@@ -41,6 +41,7 @@ public class Console {
         Date startDate = scheduler.scheduleJob(myJob, trigger);
         System.out.println(myJob.getKey() + " will start at:" + startDate.toLocaleString());
         // 开始运行调度程序
-        scheduler.start();        Thread.sleep(20000);// 等待20秒
+        scheduler.start();        
+        Thread.sleep(20000);// 等待20秒
         scheduler.shutdown();// 关闭调度程序        SchedulerMetaData metaData = scheduler.getMetaData();
         System.out.println("Test end------>");    }}
